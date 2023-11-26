@@ -1,6 +1,6 @@
 # Latex-QuickList
 
-> 此仓库存放了我制作的Latex速查表的Markdown文件，以及编译得到的html文件和pdf文件
+> 此仓库存放了我制作的Latex速查表的Markdown文件，以及编译得到的html文件和pdf文件，README.md呈现的效果几乎与 仓库中的 Markdown 文件一致。有极少内容由于 GitHub 的不支持，因此在 README.md 中进行了删改。
 
 - [Latex-QuickList](#latex-quicklist)
   - [函数](#函数)
@@ -108,7 +108,6 @@ $\tanh x$ `\tanh x`
 复数的幅角： $\arg z$ `\arg z`  
 向下取整： $\lfloor x \rfloor$ `\lfloor x \rfloor`
 向上取整： $\lceil x \rceil$ `\lceil x \rceil`
-自定义函数： $\operatorname{function} x$ `\operatorname{function} x`
 
 ## 符号
 
@@ -142,12 +141,10 @@ $\bigodot$ `\bigodot`
 ### 集合
 
 $\{ \}$ `\{ \}`  
-$\empty$ `\empty`  
 $\varnothing$ `\varnothing`  
 $\in$ `\in`  
 $\not\in$ `\notin` 或 `\not\in`  
 $\ni$ `\ni`  
-$\notni$ `\notni` 或 `\not\ni`  
 $\cap$ `\cap`  
 $\Cap$ `\Cap`  
 $\sqcap$ `\sqcap`  
