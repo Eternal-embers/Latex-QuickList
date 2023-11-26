@@ -386,15 +386,15 @@ $\mathbb{FONT}$ `\mathbb{FONT}`
 
 > 对大小写字母、希腊字母都有效
 
-$\mathbf{FONT}$ `\mathbf{FONT}`
-$\mathbf{font}$ `\mathbf{font}`
-$\mathbf{\digamma\Theta\Nu\Tau}$ `\mathbf{\digamma\Theta\Nu\Tau}`
+$\mathbf{FONT}$ `\mathbf{FONT}`  
+$\mathbf{font}$ `\mathbf{font}`  
+$\mathbf{\digamma\Theta\Nu\Tau}$ `\mathbf{\digamma\Theta\Nu\Tau}`  
 
 ### 斜体
 
-$\mathit{1234567890}$ `\mathit{1234567890}`
-$\mathit{abcdefg}$ `\mathit{abcdefg}`
-$\mathit{ABCDEFG}$ `\mathit{ABCDEFG}`
+$\mathit{1234567890}$ `\mathit{1234567890}`  
+$\mathit{abcdefg}$ `\mathit{abcdefg}`  
+$\mathit{ABCDEFG}$ `\mathit{ABCDEFG}`  
 
 ### 无衬线体
 
@@ -1086,3 +1086,5 @@ x + y + 2z = 4
 
 > `\left\{ 公式 \right.` 实现只有左边出现界定符大括号 `{`
 > `\begin{aligned} 公式 \end{aligned}` 实现公式右对齐
+
+
