@@ -719,10 +719,12 @@ a_{13} & a_{14} \\
 #### 小括号
 
 $$
-\begin{Bmatrix}
+\left (
+\begin{array}{}
 a_{11} & a_{12} \\
 a_{13} & a_{14} \\
-\end{Bmatrix}
+\end{array}
+\right )\\
 $$
 
 ```latex
@@ -737,12 +739,10 @@ a_{13} & a_{14} \\
 #### 大括号
 
 $$
-\left \{
-\begin{array}{}
+\begin{Bmatrix}
 a_{11} & a_{12} \\
 a_{13} & a_{14} \\
-\end{array}
-\right \}\\
+\end{Bmatrix}
 $$
 
 ```latex
