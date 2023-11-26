@@ -932,7 +932,7 @@ $$
 | $\|A\|$ | $vmatrix$ |
 | $\parallel$ | $Vmatrix$ |
 | $()$ | $pmatrix$ |
-| $\{\}$ | $Bmatrix$ |
+| {} | $Bmatrix$ |
 | $[\ ]$ | $bmatrix$ |
 
 ```latex
