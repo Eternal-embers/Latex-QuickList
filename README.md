@@ -462,18 +462,14 @@ $\color{#f0f0f0}{text}$ `\color{#f0f0f0}{text}`
 - `\!` 表示一个负的窄空格，缩进$\frac{1}{6}M$ 的宽度
 - `\\` 表示换行
 
-$$
-\boxed{
-\begin{array}{c|c}
-窄空格 & a\,b \\ \hline
-中等空格 & a\: b \\ \hline
-大空格 & a\;b \\ \hline
-字母M的宽度 & a\quad b \\ \hline
-两个M的宽度 & a\qquad b \\ \hline
-负窄空格 & a\!b
-\end{array}\\
-}
-$$
+|空格类型 | 效果 |
+|:---:|:---:|
+|$窄空格$|$a\,b$|
+|$中等空格$|$a\:b$|
+|$大空格$|$a\;b$|
+|$字母M的宽度$|$a\quad b$|
+|$两个M的宽度$|$a\qquad b$|
+|$负窄空格$|$a\!b$|
 
 ## 上下标与积分等
 
@@ -723,12 +719,10 @@ a_{13} & a_{14} \\
 #### 小括号
 
 $$
-\left (
-\begin{array}{}
+\begin{Bmatrix}
 a_{11} & a_{12} \\
 a_{13} & a_{14} \\
-\end{array}
-\right ) \\
+\end{Bmatrix}
 $$
 
 ```latex
@@ -936,18 +930,13 @@ $$
 
 #### 应用 - 制作表格
 
-$$
-\boxed{
-    \begin{array}{c|c}
-    矩阵类型 & 关键字 \\ \hline
-    |A| & vmatrix \\ \hline
-    \parallel & Vmatrix \\ \hline
-    () & pmatrix \\ \hline
-    \{\} & Bmatrix \\ \hline
-    [\ ] & bmatrix
-    \end{array}
-}\\
-$$
+| 矩阵类型 | 关键字 |
+|:---:|:---:|
+| $\|A\|$ | $vmatrix$ |
+| $\parallel$ | $Vmatrix$ |
+| $()$ | $pmatrix$ |
+| $\{\}$ | $Bmatrix$ |
+| $[\ ]$ | $bmatrix$ |
 
 ```latex
 \boxed{
