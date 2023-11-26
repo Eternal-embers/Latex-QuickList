@@ -1086,5 +1086,3 @@ x + y + 2z = 4
 
 > `\left\{ 公式 \right.` 实现只有左边出现界定符大括号 `{`
 > `\begin{aligned} 公式 \end{aligned}` 实现公式右对齐
-
-
