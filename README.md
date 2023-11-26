@@ -903,7 +903,7 @@ a_{51} & a_{52} & a_{53} & a_{54} & a_{55}
 
 $$
 \left [
-\begin{array}{cc}
+\begin{array}{cc:cc}
 1 & 0 & 1 & -2 \\
 0 & 1 & 0 & 1 \\
 \hdashline
@@ -915,7 +915,7 @@ $$
 
 ```latex
 \left [
-\begin{array}{cc:}
+\begin{array}{cc:cc}
 1 & 0 & 1 & -2 \\
 0 & 1 & 0 & 1 \\
 \hdashline
