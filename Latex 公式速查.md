@@ -52,10 +52,15 @@
     - [多公式无编号 - `align*`](#多公式无编号---align)
       - [多公式无编号](#多公式无编号)
       - [单方程式多行写](#单方程式多行写)
+<<<<<<< HEAD
     - [自定义对齐方式](#自定义对齐方式)
     - [方程组](#方程组)
 
 
+=======
+    - [方程组](#方程组)
+
+>>>>>>> f3a3e293b9335da7a36465fc0a856e934a19aecf
 > 本文仅提供的能够在 $Markdown$ 中使用的 $Latex$ 公式。
 
 如何插入 $Latex$ 公式？
@@ -106,9 +111,15 @@ $\tanh x$ `\tanh x`
 投影： $\Pr$ `\Pr`  
 同调群：$\hom$ `\hom`  
 复数的幅角： $\arg z$ `\arg z`  
+<<<<<<< HEAD
 向下取整： $\lfloor x \rfloor$ `\lfloor x \rfloor`  
 向上取整： $\lceil x \rceil$ `\lceil x \rceil`  
 自定义函数： $\operatorname{function} x$ `\operatorname{function} x`  
+=======
+向下取整： $\lfloor x \rfloor$ `\lfloor x \rfloor`
+向上取整： $\lceil x \rceil$ `\lceil x \rceil`
+自定义函数： $\operatorname{function} x$ `\operatorname{function} x`
+>>>>>>> f3a3e293b9335da7a36465fc0a856e934a19aecf
 
 ## 符号
 
@@ -265,7 +276,10 @@ $\nexists$ `\nexists`
 $\therefore$ `\therefore`  
 $\because$ `\because`  
 $\And$ `\And`  
+<<<<<<< HEAD
 $\mid$ `\mid`  
+=======
+>>>>>>> f3a3e293b9335da7a36465fc0a856e934a19aecf
 $\lor$ `\lor` 或 `\vee`  
 $\land$ `\land` 或 `\wedge`  
 $\bar{q}$ `\bar{q}`  
@@ -333,10 +347,13 @@ $\upuparrows$ `\upuparrows`
 $\downdownarrows$ `\downdownarrows`  
 $\leftleftarrows$ `\leftleftarrows`  
 $\rightrightarrows$ `\rightrightarrows`  
+<<<<<<< HEAD
 $\stackrel{text}{\longrightarrow}$ `\stackrel{text}{\longrightarrow}`  
 $\stackrel{text}{\longleftarrow}$ `\stackrel{text}{\longleftarrow}`  
 $\stackrel{text}{\downarrow}$ `\stackrel{text}{\downarrow}`  
 $\stackrel{text}{\uparrow}$ `\stackrel{text}{\uparrow}`  
+=======
+>>>>>>> f3a3e293b9335da7a36465fc0a856e934a19aecf
 
 ## 希腊字母
 
@@ -483,6 +500,7 @@ $$
 ## 上下标与积分等
 
 $x^2$ `x^2`  
+<<<<<<< HEAD
 
 $x^{a + b}$ `x^{a+b}`  
 
@@ -514,6 +532,21 @@ $\widehat{abc}$ `\widehate{abc}`
 
 下划线： $\underline{abc}$ `\underline{abc}`  
 
+=======
+$x^{a + b}$ `x^{a+b}`  
+$a_1$ `a_1`  
+$a_{ij}$ `a_{ij}`  
+前置上下标： ${}_1^2\!X_3^4$ `{}_1^2\!x_3^4`  
+导数： $x^\prime$ `x^\prime`  或 `x'`  
+导数点： $\dot{x}$ `\dot{x}`  
+向量：$\vec{x}$ `\vec{x}`  
+左长箭头： $\overleftarrow{a + b}$ `\overleftarrow{a + b}`  
+右长箭头： $\overrightarrow{a + b}$ `\overrightarrow{a + b}`  
+$\widehat{abc}$ `\widehate{abc}`  
+上弧： $\overset{\frown}{AB}$ `\overset{\frown}{AB}`  
+上划线： $\overline{abc}$ `\overline{abc}`  
+下划线： $\underline{abc}$ `\underline{abc}`  
+>>>>>>> f3a3e293b9335da7a36465fc0a856e934a19aecf
 上括号： $\overbrace{1 + 2 + \cdots + 100}$ `\overbrace{1 + 2 + \cdots + 100}`  
 
 上括号示例： $\begin{matrix}5050\\\overbrace{1 + 2 + \cdots + 100}\end{matrix}$ `\begin{matrix}5050\\\overbrace{1 + 2 + \cdots + 100}\end{matrix}`  
@@ -523,6 +556,7 @@ $\widehat{abc}$ `\widehate{abc}`
 下括号示例： $\begin{matrix}\underbrace{1 + 2 + \cdots + 100}\\5050\end{matrix}$ `\begin{matrix}\underbrace{1 + 2 + \cdots + 100}\\5050\end{matrix}`  
 
 求和： $\sum_{k = 1}^{\infty} f(x)$ `\sum_{k = 1}^{\infty} f(x)`  
+<<<<<<< HEAD
 
 求和： $\Sigma_{x = 1}^{\infty} f(x)$ `\Sigma_{x = 1}^{t = \infty} f(x)`  
 
@@ -538,6 +572,15 @@ $\widehat{abc}$ `\widehate{abc}`
 
 三重积分： $\iiint_a^{b} f(x) \, dx \, dy \, dz$ `\iiint_a^{b} f(x) \, dx \, dy \, dz`  
 
+=======
+求和： $\Sigma_{x = 1}^{\infty} f(x)$ `\Sigma_{x = 1}^{t = \infty} f(x)`  
+求积： $\prod_{i = 1}^{n} x_i$ `\prod_{i = 1}^{n} x_i`  
+上积： $\coprod_{i = 1}^{n} x_i$ `\coprod_{i = 1}^{n} x_i`  
+极限： $\lim_{x\to\infty} f(x)$ `\lim_{x\to\infty} f(x)`  
+积分： $\int_{a}^{b} f(x)dx$ `\int_{a}^{b} f(x)dx`  
+双重积分： $\iint_{a}^{b} f(x) \, dx \, dy$ `\iint_{a}^{b} f(x) \, dx \, dy`  
+三重积分： $\iiint_a^{b} f(x) \, dx \, dy \, dz$ `\iiint_a^{b} f(x) \, dx \, dy \, dz`  
+>>>>>>> f3a3e293b9335da7a36465fc0a856e934a19aecf
 闭合的曲线、曲面积分： $\oint_{C} x^2 \, dx+ y \, dy$ `\oint_{C} x^2 \, dx+ y \, dy`  
 
 ## 分式
@@ -1069,15 +1112,23 @@ e^{i\pi} + 1 = 0
 
 $$
 \begin{align*}
+<<<<<<< HEAD
    z & = (a+b)^4 \\
      & = (a+b)^2(a+b)^2 \\
      & = (a^2+2ab+b^2)(a^2+2ab+b^2) \\
      & = a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4
+=======
+   z &= (a+b)^4 \\
+     &= (a+b)^2(a+b)^2 \\
+     &= (a^2+2ab+b^2)(a^2+2ab+b^2) \\
+     &= a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4
+>>>>>>> f3a3e293b9335da7a36465fc0a856e934a19aecf
  \end{align*}\\
 $$
 
 ```latex
 \begin{align*}
+<<<<<<< HEAD
    z & = (a+b)^4 \\
      & = (a+b)^2(a+b)^2 \\
      & = (a^2+2ab+b^2)(a^2+2ab+b^2) \\
@@ -1142,6 +1193,15 @@ $$
 \end{align*}
 $$
 
+=======
+   z &= (a+b)^4 \\
+     &= (a+b)^2(a+b)^2 \\
+     &= (a^2+2ab+b^2)(a^2+2ab+b^2) \\
+     &= a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4
+ \end{align*}
+```
+
+>>>>>>> f3a3e293b9335da7a36465fc0a856e934a19aecf
 ### 方程组
 
 $$
@@ -1171,4 +1231,8 @@ x + y + 2z = 4
 ```
 
 > `\left\{ 公式 \right.` 实现只有左边出现界定符大括号 `{`  
+<<<<<<< HEAD
 > `\begin{aligned} 公式 \end{aligned}` 实现公式右对齐  
+=======
+> `\begin{aligned} 公式 \end{aligned}` 实现公式右对齐  
+>>>>>>> f3a3e293b9335da7a36465fc0a856e934a19aecf
