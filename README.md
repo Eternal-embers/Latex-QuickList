@@ -1107,7 +1107,7 @@ $$
 在 `align` 或 `align*` 环境下，在公式左侧添加 `&` 可以使得公式左对齐，否则默认为居中对齐。
 实际上将 `&` 的作用是为公式设置一个对齐点，多个公式的对齐点会在同一竖线上。  
 
-- 将标记的 $=$ 和 $+$ 之间保持对齐
+- 将标记的 $=$ 和 $+$ 之间保持对齐，在对应 `=` 和 `+` 前标记 `&`
 
 $$
 \begin{align*}
@@ -1129,7 +1129,7 @@ $$
 \end{align*}
 ```
 
-- 将 $\cdots$ 之间保持对齐
+- 将 $\cdots$ 之间保持对齐，在所有 `\cdots` 前标记 `&`
 
 $$
 \begin{align*}
@@ -1140,6 +1140,16 @@ $$
 = N \times \frac{p_1 - 1}{p_1} \times \frac{p_2 - 1}{p_2} &\cdots \times \frac{p_m - 1}{p_m}
 \end{align*}
 $$
+
+```latex
+\begin{align*}
+\phi(N) = N - \frac{N}{p_1} - \frac{N}{p_2} &\cdots - \frac{N}{p_k}\\
++\frac{N}{p_1p_2} + \frac{N}{p_1p_3} + &\cdots\\
++\frac{N}{p_1p_2p_3} - \frac{N}{p_2p_2p_4} &\cdots\\
++ &\cdots \\
+= N \times \frac{p_1 - 1}{p_1} \times \frac{p_2 - 1}{p_2} &\cdots \times \frac{p_m - 1}{p_m}
+\end{align*}
+```
 
 ### 方程组
 
