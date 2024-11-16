@@ -517,9 +517,13 @@ $\widehat{abc}$ `\widehate{abc}`
 
 上括号示例： $\begin{matrix}5050\\\overbrace{1 + 2 + \cdots + 100}\end{matrix}$ `\begin{matrix}5050\\\overbrace{1 + 2 + \cdots + 100}\end{matrix}`  
 
+$\overbrace{\sqrt{2 + \sqrt{2 + \cdots + \sqrt{2}}}}^{n\ \text{个根号}}$ `\overbrace{\sqrt{2 + \sqrt{2 + \cdots + \sqrt{2}}}}^{n\ \text{个根号}}`
+
 下括号： $\underbrace{1 + 2 + \cdots + 100}$ `\underbrace{1 + 2 + \cdots + 100}`  
 
 下括号示例： $\begin{matrix}\underbrace{1 + 2 + \cdots + 100}\\5050\end{matrix}$ `\begin{matrix}\underbrace{1 + 2 + \cdots + 100}\\5050\end{matrix}`  
+
+$\underbrace{\sqrt{2 + \sqrt{2 + \cdots + \sqrt{2}}}}_{n\ \text{个根号}}$ `$\underbrace{\sqrt{2 + \sqrt{2 + \cdots + \sqrt{2}}}}_{n\ \text{个根号}}$`
 
 求和： $\sum_{k = 1}^{\infty} f(x)$ `\sum_{k = 1}^{\infty} f(x)`  
 
